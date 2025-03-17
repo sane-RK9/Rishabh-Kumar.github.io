@@ -68,5 +68,4 @@ The application will be available at `http://localhost:5000`.
 │   └── storage.ts        # Database operations
 └── shared/              # Shared types and schemas
     └── schema.ts        # Database schema and types
-
-#
+```
