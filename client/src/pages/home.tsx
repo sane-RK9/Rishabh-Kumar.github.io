@@ -33,19 +33,75 @@ export default function Home() {
                 <div>
                   <h3 className="font-medium mb-2">Languages</h3>
                   <ul className="text-muted-foreground space-y-1">
-                    <li>Python</li>
-                    <li>SQL</li>
+                    <li>
+                      <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+                      <img
+                       src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white"
+                       alt="Python"
+                       />
+                      </a>
+                    </li>
+                    <li>
+                     <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+                     <img
+                      src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"
+                      alt="PostgreSQL"
+                      />
+                     </a>
+                    </li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-medium mb-2">Frameworks</h3>
                   <ul className="text-muted-foreground space-y-1">
-                    <li>Pytorch</li>
-                    <li>TensorFlow</li>
-                    <li>JAX</li>
-                    <li>NumPy</li>
-                    <li>Pandas</li>
-                    <li>keras</li>
+                    <li>
+                     <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">
+                     <img
+                     src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white"
+                     alt="PyTorch"
+                     />
+                     </a>
+                    </li>
+                    <li>
+                     <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">
+                     <img
+                     src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white"
+                     alt="TensorFlow"
+                     />
+                     </a>
+                    </li>
+                    <li>
+                      <a href="https://jax.readthedocs.io/" target="_blank" rel="noopener noreferrer">
+                      <img
+                      src="https://img.shields.io/badge/JAX-EA4335?logo=jax&logoColor=white"
+                      alt="JAX"
+                      />
+                      </a>
+                    </li>
+                    <li>
+                     <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">
+                     <img
+                     src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white"
+                     alt="NumPy"
+                     />
+                     </a>
+                    </li>
+                    <li>
+                     <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+                     <img
+                     src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white"
+                     alt="Pandas"
+                     />
+                     </a>
+                    </li>
+                    <li>
+                     <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+                     <img
+                     src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black"
+                     alt="Firebase"
+                     />
+                     </a>
+                    </li>
                   </ul>
                 </div>
               </div>
