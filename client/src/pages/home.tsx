@@ -107,15 +107,56 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-card p-6 rounded-lg">
-              <h2 className="text-xl font-semibold mb-4">Interests</h2>
-              <div className="flex flex-wrap gap-2">
-                {["Chess", "Football", "Anime", "Simulations", "Drumming"].map((interest) => (
-                  <span key={interest} className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">
-                    {interest}
-                  </span>
-                ))}
-              </div>
-            </div>
+  <h2 className="text-xl font-semibold mb-4">Interests</h2>
+  <div className="flex flex-wrap gap-2">
+    {[
+      // Chess (Personal Profile)
+      <a key="chess" href="https://www.chess.com/member/RK9_gamer" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/Chess-769656?logo=chess&logoColor=white&label=My%20Chess%20Profile"
+          alt=""
+          className="h-6"
+        />
+      </a>,
+
+      // Football (Barcelona)
+      <a key="football" href="https://www.fcbarcelona.com" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/FCB%20Fan-004D98?logo=fcbarcelona&logoColor=white&labelColor=A50044"
+          alt="FC Barcelona Fan"
+          className="h-6"
+        />
+      </a>,
+
+      // Anime
+      <a key="anime" href="https://myanimelist.net/animelist/your_profile" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/Anime-FF69B4?logo=myanimelist&logoColor=white"
+          alt="My Anime List"
+          className="h-6"
+        />
+      </a>,
+
+      // Gaming (Steam + Epic)
+      <a key="gaming" href="https://steamcommunity.com/profiles/76561199095498848" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/Gaming-000000?logo=steam&logoColor=white"
+          alt="Steam Profile"
+          className="h-6"
+        />
+      </a>,
+
+      // Drumming (Drumeo)
+      <a key="drumming" href="https://www.drumeo.com" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://img.shields.io/badge/Drumming-1D4F91?logo=musical-notation&logoColor=white&label=Drumeo%20Learner&logo=%F0%9F%A5%81"
+          alt="Drumming via Drumeo"
+          className="h-6"
+        />
+      </a>
+    ].map((badge) => badge)}
+  </div>
+</div>
           </div>
         </div>
       </div>
