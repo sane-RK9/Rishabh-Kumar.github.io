@@ -9,13 +9,13 @@ export default function Home() {
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Hi, I'm a <span className="text-primary">Software Engineer</span>
+              Hi, I'm a <span className="text-primary">Rishabh Kumar</span>
               <br />
               Passionate about AI & ML
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              I specialize in Python, Java, and C with expertise in AI/ML technologies like TensorFlow and RoBERTa. 
-              Currently exploring microprocessor design and neural networks.
+              I specialize in Python with expertise in AI/ML technologies like TensorFlow and Pytorch. 
+              Currently exploring Automation and DevOps For MLOps .
             </p>
             <div className="flex gap-4">
               <Button asChild size="lg">
@@ -34,18 +34,18 @@ export default function Home() {
                   <h3 className="font-medium mb-2">Languages</h3>
                   <ul className="text-muted-foreground space-y-1">
                     <li>Python</li>
-                    <li>Java</li>
-                    <li>C</li>
                     <li>SQL</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-medium mb-2">Frameworks</h3>
                   <ul className="text-muted-foreground space-y-1">
-                    <li>Django</li>
+                    <li>Pytorch</li>
                     <li>TensorFlow</li>
                     <li>JAX</li>
                     <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>keras</li>
                   </ul>
                 </div>
               </div>
