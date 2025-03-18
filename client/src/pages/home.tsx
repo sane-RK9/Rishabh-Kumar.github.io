@@ -110,15 +110,14 @@ export default function Home() {
   <h2 className="text-xl font-semibold mb-4">Interests</h2>
   <div className="flex flex-wrap gap-2">
     {[
-      // Chess (Personal Profile)
-      <a key="chess" href="https://www.chess.com/member/RK9_gamer" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://img.shields.io/badge/Chess-769656?logo=chess&logoColor=white&label=My%20Chess%20Profile"
-          alt=""
-          className="h-6"
-        />
-      </a>,
-
+      // Chess with Pawn Symbol
+       <a key="chess" href="https://www.chess.com/member/RK9_gamer" target="_blank" rel="noopener noreferrer">
+       <img
+       src="https://img.shields.io/badge/Chess-769656?logo=chess-knight&logoColor=white"
+       alt="Chess Profile"
+       className="h-6"
+  />
+</a>,
       // Football (Barcelona)
       <a key="football" href="https://www.fcbarcelona.com" target="_blank" rel="noopener noreferrer">
         <img
